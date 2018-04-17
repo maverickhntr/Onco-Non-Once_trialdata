@@ -30,10 +30,10 @@ from bs4 import BeautifulSoup
 
 MainCounter = 2
 #Beginning and Ending Cells in your worksheet to Process
-StartCell = 632
+StartCell = 2
 EndCell = 663
 
-#Code Shamelessly copied from StackExchange user HennyH
+
 def search(text,n):
     '''Searches for text, and retrieves n words either side of the text, which are returned seperately'''
     word = r"\W*([\w]+)"
